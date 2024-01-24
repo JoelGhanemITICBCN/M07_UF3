@@ -1,0 +1,7 @@
+valor = float(input("Introdueix un valor en euros  "))
+iva = input("Quin IVA vols 4%, 10% o 21%  ")
+print("El teou valor es: " + str(valor))
+print("El teu IVA es del: " + iva +"%")
+iva = float(iva)
+valor = valor + (valor * iva/100)
+print("El valor final es: " + str(valor))
