@@ -32,5 +32,14 @@ class vehicle:
     def setPreu(self):
         self.preu = preu
     #FI DE GETTERS I SETTERS
+    def to_dict(self):
+        return {
+            "color": self.color,
+            "marca": self.marca,
+            "model": self.model,
+            "anyo": self.anyo,
+            "velocitat": self.velocitat,
+            "preu": self.preu
+        }
     def parts(self):
         print(f"El meu color es el {self.color}, la meva marca es {self.marca}, el meu model es {self.model}, soc del {self.anyo}, la meva velocitat es de {self.velocitat} i costo {self.preu}")
