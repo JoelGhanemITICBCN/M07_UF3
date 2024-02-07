@@ -1,0 +1,1 @@
+#query de borrado de un campo
