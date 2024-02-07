@@ -1,1 +1,1 @@
-no se si esta bien hecho, no me bajes nota, estoy preocupado por el ghub
+A la practica 2 utilitzarem el docker i postgresql
