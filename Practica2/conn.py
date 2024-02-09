@@ -1,14 +1,16 @@
 import psycopg2
+import connection
 
 try:
 #Per saber quina es la db el user i el password mirar el .yml
-    conn = psycopg2.connect(
+    '''conn = psycopg2.connect(
         database="postgres",
         user="admin",
         password="admin",
         host="localhost",
         port="5432"
     )
+    '''
     
     #per er la connecio s utilitza el metode cursor()
     connection = conn.cursor()

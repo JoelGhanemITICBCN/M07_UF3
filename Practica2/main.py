@@ -1,4 +1,9 @@
 import psycopg2
 from create import create
+from connection import conn
 
-create()
+try: 
+   connection = conn.cursor()
+   create()
+except:
+   print("error") 
