@@ -1,10 +1,8 @@
 #Read de la base de datos
 import connection
 import psycopg2
-from connection import conecta
 
 def select():
-    try:
         conn = connection.conecta()
         cursor = conn.cursor()
         select = '''
@@ -12,12 +10,10 @@ def select():
         '''
     
         cursor.execute(select)
-        resultado = cursor.fetchAll()
-        print(resultado)
-        print("Select bien: " + select)
-    except Exception as e:
         conn.commit()
-        print("El error del select es: ",e) 
-    finally:
-        cursor.close()
-        conn.close()
+        resultados = cursor.fetchall()
+        if len(resultados) > 0:
+            for resultado in resultados:
+                print(resultado)
+            else: 
+                print("Esta vacio")
