@@ -13,7 +13,7 @@ try:
     '''
     
     #per er la connecio s utilitza el metode cursor()
-    connection = conn.cursor()
+    #connection = conn.cursor()
     
     print(connection)
     

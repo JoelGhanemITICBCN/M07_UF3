@@ -2,8 +2,8 @@
 
 import psycopg2
 
-
-conn = psycopg2.connect(
+def conecta():
+    return psycopg2.connect(
         database="postgres",
         user="admin",
         password="admin",
