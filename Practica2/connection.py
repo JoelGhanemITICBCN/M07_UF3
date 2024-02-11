@@ -10,4 +10,4 @@ conn = psycopg2.connect(
 )
 
 conection = conn.cursor()
-print(f"Se ha conectado, {conection}")
+print(f"Se ha conectado")
