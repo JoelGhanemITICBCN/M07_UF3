@@ -4,6 +4,7 @@ Antes de crear la tabla:
 
 ![Vacio](img/1.PNG)
 
+
 ---
 
 Creación de la tabla:
@@ -65,6 +66,8 @@ Eliminando un dato:
 
 Tabla borrada:
 
+
 ![Todo borrado](img/1.PNG)
 ![Select tabla borrada](img/vacio.PNG)
+
 -
