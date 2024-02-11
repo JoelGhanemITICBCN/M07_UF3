@@ -2,7 +2,7 @@
 
 Antes de crear la tabla:
 
-![Vacio](img/1.png)
+![Vacio]([img/1.png](https://github.com/JoelGhanemITICBCN/M07_UF3/blob/main/Practica2/img/1.PNG))
 
 ---
 
