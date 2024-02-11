@@ -1,15 +1,19 @@
 #Update de la base de datos
+#Comprobado que funciona
 import connection
 
 def update():
+    #Query
     update = '''
         update pokemon set 
         name = 'Squirtle',
         type = 'Agua',
-        weight = '80 kg',
-        height = '1,1 m',
-        where name = 'pikachu';
+        weight = 80,
+        height = '1,1 m'
+        WHERE name = 'pikachu';
 '''
-    connection.execute(update)
-    connection.commit()
+    #Ejecucion y aplicacion de la query
+    connection.conection.execute(update)
+    connection.conn.commit()
+    #Mensja ede ocnfirmacion
     print(f"Se ha actualizado tu pokemon")
