@@ -1,9 +1,9 @@
 import psycopg2
-from create import create
-from connection import conecta
-from create_table import createTable
-from read import select
-from delete import delete
+from create import *
+from connection import *
+from create_table import *
+from read import *
+from delete import *
 try: 
    conecta()
    createTable()
@@ -13,4 +13,6 @@ try:
    print("se esta borrando")
    select()
 except Exception as e:
-   print("Error en main: ",e) 
+   print("Error: ",e) 
+finally:
+   conn.close()
