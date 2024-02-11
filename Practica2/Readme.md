@@ -9,7 +9,7 @@ Antes de crear la tabla:
 Creación de la tabla:
 
 
-![CreacionTablaPG](img/2.5.)
+![CreacionTablaPG](img/2.5.PNG)
 ![CreacionTablaConsole](img/2.PNG)
 
 ---
