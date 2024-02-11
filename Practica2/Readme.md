@@ -10,7 +10,7 @@ Creación de la tabla:
 
 
 ![CreacionTablaPG](img/2.5.png)
-![CreacionTablaConsole](img/2.PNG)
+![CreacionTablaConsole](img/2.png)
 
 ---
 
